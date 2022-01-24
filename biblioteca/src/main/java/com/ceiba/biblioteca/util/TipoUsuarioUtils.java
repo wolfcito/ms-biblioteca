@@ -29,4 +29,8 @@ public class TipoUsuarioUtils {
         return Arrays.stream(TipoUsuario.values()).anyMatch(tpuser -> tpuser.ordinal() == codigoTipoUsuario);
     }
 
+    public static boolean ValidateUserInvitado(Integer codigoTipoUsuario){
+        return  codigoTipoUsuario == USUARIO_INVITADO.ordinal();
+    }
+
 }
