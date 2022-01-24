@@ -1,6 +1,5 @@
 package com.ceiba.biblioteca.util;
 
-import java.time.LocalDate;
 import java.util.Arrays;
 
 import static com.ceiba.biblioteca.util.TipoUsuario.*;
@@ -27,10 +26,7 @@ public class TipoUsuarioUtils {
     }
 
     public static boolean ValidateUser(Integer codigoTipoUsuario){
-      return Arrays.stream(TipoUsuario.values()).anyMatch(tpuser -> tpuser.ordinal() == codigoTipoUsuario);
+        return Arrays.stream(TipoUsuario.values()).anyMatch(tpuser -> tpuser.ordinal() == codigoTipoUsuario);
     }
 
-    public static boolean ValidateUserInvitado(Integer codigoTipoUsuario){
-        return  codigoTipoUsuario == USUARIO_INVITADO.ordinal();
-    }
 }
