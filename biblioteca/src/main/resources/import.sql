@@ -1,0 +1,5 @@
+INSERT INTO PRESTAMO (id,isbn,identificacion_usuario,tipo_usuario,fecha_maxima_devolucion) VALUES (1,'DASD154212','154515485',1,'2020-01-01')
+INSERT INTO PRESTAMO (id,isbn,identificacion_usuario,tipo_usuario,fecha_maxima_devolucion) VALUES (2,'DASD154213','154515486',2,'2021-02-01')
+INSERT INTO PRESTAMO (id,isbn,identificacion_usuario,tipo_usuario,fecha_maxima_devolucion) VALUES (3,'DASD154214','154515487',3,'2022-03-01')
+INSERT INTO PRESTAMO (id,isbn,identificacion_usuario,tipo_usuario,fecha_maxima_devolucion) VALUES (4,'DASD154215','154515488',1,'2020-04-01')
+INSERT INTO PRESTAMO (id,isbn,identificacion_usuario,tipo_usuario,fecha_maxima_devolucion) VALUES (5,'DASD154216','154515489',2,'2020-05-01')
