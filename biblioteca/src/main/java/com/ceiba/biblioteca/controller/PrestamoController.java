@@ -56,7 +56,7 @@ public class PrestamoController {
                     }
 
                 }catch (Exception ex){
-                    System.out.println(ex.getMessage());
+//                    System.out.println(ex.getMessage());
                     return new ResponseEntity<>(new MensajeDto("Error"), HttpStatus.BAD_REQUEST);
                 }
             }
